@@ -1,0 +1,15 @@
+# Build
+.gradle/
+build/
+local.properties
+*.apk
+*.aab
+.idea/
+*.iml
+.DS_Store
+
+# Scraped data must never be committed (patient information)
+*.csv
+*.txt
+OfficeAlly/
+!gradle/wrapper/*.txt
